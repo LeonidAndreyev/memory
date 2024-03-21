@@ -218,7 +218,7 @@ def recognition_save_words(key, k, binary,scale):
 container = st.empty()
 # initializing
 if "page" not in st.session_state:
-    st.session_state.page = 8
+    st.session_state.page = 0
 
     # declarations
     with open(r"forms/declaration.txt", mode="r", encoding="UTF-8") as file:
