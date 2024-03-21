@@ -12,5 +12,5 @@ def db(mode=True):
             if connect.is_connected():
                 cursor = connect.cursor(prepared = mode)
                 break
-        except: time.sleep(0.5)
+        except: time.sleep(1)
     return connect, cursor

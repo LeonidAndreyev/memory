@@ -28,9 +28,8 @@ def attempt(declaration, demography):
     return columns, observation
 
 def put(table, column, values):
-    # connect, cursor = db()
-    # update = "UPDATE {} SET {} = ? WHERE ID = ?".format(table, column)
-    # cursor.execute(update, values)
-    # connect.commit()
-    # connect.close()
-    print(table, column, values)
+    connect, cursor = db()
+    update = "UPDATE {} SET {} = ? WHERE ID = ?".format(table, column)
+    cursor.execute(update, values)
+    connect.commit()
+    connect.close()
