@@ -1,0 +1,68 @@
+(1.) Doğum tarihi: (Lütfen 18.07.1993 gibi GG.AA.YYYY şeklinde yazınız.)
+BYEAR
+0
+-
+(2.) Cinsiyet:
+GENDER
+2
+Kadın,Erkek
+(3.) Hangi bölümde okuyorsunuz?
+DEPARTMENT
+0
+-
+(4.) Okuduğunuz bölüme hangi puan türüyle girdiniz?
+SCORE
+0
+-
+(5.) Okuduğunuz bölüme kaç puanla girdiniz?
+SCORED
+1
+-
+(6.) İlkokuldan itibaren toplam kaç yıl eğitim aldınız?
+EYEAR
+1
+-
+(7.) Son mezun olduğunuz okul hangisidir?
+LGRAD
+2
+Lise ve altı,Yüksekokul,Üniversite,Yüksek Lisans,Doktora
+(8.) Son altı ayda herhangi bir ciddi rahatsızlık geçirdiniz mi?
+DISEASE
+2
+Evet,Hayır
+(9.) Yukarıdaki soruya cevabınız evetse lütfen ne olduğunu yazınız.
+DISEASED
+0
+-
+(10.) Kullandığınız herhangi bir ilaç var mıdır?
+DRUG
+2
+Evet,Hayır
+(11.) Yukarıdaki soruya cevabınız var ise lütfen ilacın ne olduğunu yazınız.
+DRUGD
+0
+-
+(12.) Genel sağlık durumunuzu nasıl buluyorsunuz? 1 (Çok kötü) ve 7 (Çok iyi) olmak kaydıyla değerlendirirseniz kaç puan verirsiniz?
+HEALTH 
+2
+1,2,3,4,5,6,7
+(13.) Belleğinizi 1 (Çok kötü) ve 7 (Çok iyi) olmak kaydıyla değerlendirseniz kaç puan verirsiniz?
+MEMORY
+2
+1,2,3,4,5,6,7
+(14.) Herhangi bir psikotik ilaç kullanmakta mısınız?
+PDRUG
+2
+Evet,Hayır
+(15.) Yukarıdaki soruya cevabınız var ise lütfen kullandığınız ilacın ne olduğunu yazınız.              
+PDRUGD
+0
+-
+(16.) Herhangi bir şekilde demans, kafa travması, depresyon veya başka bir psikiyatrik teşhis aldınız mı?
+DIAGNOSIS
+2
+Evet,Hayır
+(17.) Yukarıdaki soruya cevabınız var ise lütfen konulan teşhisin ne olduğunu yazınız.
+DIAGNOSISD
+0
+-
