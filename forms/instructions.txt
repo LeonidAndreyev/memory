@@ -1,0 +1,10 @@
+ŞİMDİ SİZE BİRER SANİYE ARALIKLARLA 14 KELİMELİK BİR LİSTE BİRER BİRER SUNULACAKTIR. KELİMELERİ DİKKATLE İNCELEYİN, AKLINIZDA TUTMAYA ÇALIŞIN, DAHA SONRA BİR HATIRLAMA TESTİ VERİLECEKTİR.
+AZ ÖNCE GÖRMÜŞ OLDUĞUNUZ KELİMELER, ASIL LİSTEYİ SORUNSUZ ŞEKİLDE UYGULAMAK İÇİN SADECE ALIŞTIRMA AMACIYLA VERİLDİ. TESTTE SORUMLU OLACAĞINIZ ASIL LİSTE ŞİMDİ SUNULACAKTIR. DİKKATLE İNCELEYİN VE AKLINIZDA TUTMAYA ÇALIŞIN.
+Yüksek sesle 280’den geriye 3’er 3’er sayınız.
+ŞİMDİ HER İKİ LİSTEDEKİ KELİMELERDEN AKLINIZDA KALAN KELİMELERİ, İSTEDİĞİNİZ SIRADA ÖNÜNÜZDEKİ KAĞIDA YAZABİLİRSİNİZ. SÜRENİZ 3 DAKİKADIR.
+Size şimdi bir tanıma testi vereceğim. Bu testteki kelimelerin bazıları gördüğünüz iki listedeki kelimelerdir; bazıları ise o iki listede görmediğiniz yeni kelimelerdir. Yapmanızı istediğim şey her bir kelimeyi dikkatle inceledikten sonra, kelimelerin listelerde gördüğünüz kelimeler olup olmadığına karar vermenizdir. Size gösterilen listede olduğunu düşündüğünüz kelimeyi yuvarlak içine alın ya da altını çizin.
+*Eğer bu kelimeyi deneyde gördüğünüze eminseniz 1’i seçin;
+*Gördüğünüzü düşünüyorsanız ama emin değilseniz 2’yi seçin;
+*Görmediğinizi düşünüyorsanız ama emin değilseniz 3’ü seçin;
+*Görmediğinizden emin iseniz 4’ü seçin.
+*Ölçekleri sırayla ve eksiksiz olarak doldurun.
