@@ -83,7 +83,8 @@ def put_demography():
         next()
     else: st.session_state.warning = "Lütfen kırmızı ile işaretlenmiş alanları doldurunuz."   
 def attention_button(i, mode):
-    st.session_state.attention[i] = "🟢" if mode == True else "🔴"
+    try: st.session_state.attention[i] = "🟢" if mode == True else "🔴"
+    except: pass
 def recall_instructions(i):
     if i < 2: instruction = f'<div style="text-align: center; font-size: 36px; padding-top: 128px">{st.session_state.instructions[i] if st.session_state.order[i][1] != 2 else st.session_state.instructions[i][115:]}</div>'
     elif i == 2: instruction = f'<div style="text-align: center; font-weight: bold; font-size: 24px; padding-top: 6px;">{st.session_state.instructions[i]}</div>'
@@ -111,7 +112,7 @@ def recall_instructions(i):
 
         while (datetime.now() - st.session_state.start).total_seconds() < duration: time.sleep(1)
         else:
-            time.sleep(2)
+            time.sleep(1)
             del st.session_state.anumbers
             del st.session_state.aoptions
             del st.session_state.attention
@@ -203,17 +204,19 @@ def distractor_start():
         score.markdown(f'<div style="text-align: center; font-weight: bold; font-size: 24px; padding-top: 6px;">{st.session_state.dscore} puan kazandınız.</div>', unsafe_allow_html=True)
         time.sleep(0.1)
     else:
-        time.sleep(2)
+        time.sleep(1)
         del st.session_state.dduration
         del st.session_state.dscore
         del st.session_state.doptions
         del st.session_state.start
         next("normal")
 def distractor_change():
-    st.session_state.dscore = 0
-    for i in range(10,85):
-        if st.session_state.cities[i] == st.session_state[f"distractor{i}"]:
-            st.session_state.dscore += 10
+    try:
+        st.session_state.dscore = 0
+        for i in range(10,85):
+            if st.session_state.cities[i] == st.session_state[f"distractor{i}"]:
+                st.session_state.dscore += 10
+    except: pass
 def recognition_get_words(key, k):
     if "warning" not in st.session_state:
         st.session_state.warning = ""
