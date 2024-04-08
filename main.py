@@ -111,6 +111,7 @@ def recall_instructions(i):
 
         while (datetime.now() - st.session_state.start).total_seconds() < duration: time.sleep(1)
         else:
+            time.sleep(2)
             del st.session_state.anumbers
             del st.session_state.aoptions
             del st.session_state.attention
@@ -202,6 +203,7 @@ def distractor_start():
         score.markdown(f'<div style="text-align: center; font-weight: bold; font-size: 24px; padding-top: 6px;">{st.session_state.dscore} puan kazandınız.</div>', unsafe_allow_html=True)
         time.sleep(0.1)
     else:
+        time.sleep(2)
         del st.session_state.dduration
         del st.session_state.dscore
         del st.session_state.doptions
