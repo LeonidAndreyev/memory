@@ -9,8 +9,10 @@ def db(mode=True):
             database="patriciamemorytest_havingdish",
             user="patriciamemorytest_havingdish",
             password="c5adcbeb4321766cac7eb524b413920b77d99ef7")
-            if connect.is_connected():
-                cursor = connect.cursor(prepared = mode)
-                break
+            if connect.is_connected(): break
         except: time.sleep(1)
+    while True:
+        try: cursor = connect.cursor(prepared = mode)
+        except: time.sleep(1)
+        else: break
     return connect, cursor
